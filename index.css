@@ -1,0 +1,107 @@
+/* Body and General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin: 0;
+  }
+  
+  /* Navigation Styling */
+  nav {
+    margin-top: 20px;
+  }
+  
+  /* Card Styling */
+  .card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .card {
+    width: 300px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    background-color: #ff6b6b;
+    color: #fff;
+    padding: 20px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 48px;
+    margin: 0;
+    color: #333;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Additional Styling */
+  .my-4 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .my-0 {
+    margin: 0;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-muted {
+    color: #6c757d;
+  }
+  
+  .text-success {
+    color: #28a745;
+  }
+  
+  .form-inline {
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-control {
+    margin-right: 10px;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .card {
+      width: 100%;
+    }
+  }
+  
